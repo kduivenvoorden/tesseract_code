@@ -1,7 +1,7 @@
 %some examples of the workings of the decoder
 
 N=      1;      %number of runs 
-L=      6;      %system size (choose between 3,4,6,10)
+L=      6;      %system size (choose between 3,4,6,10,...2^k+2)
 p=      0.07;   %probability (threshold is approx 7.3%)
 f=      1;      %ratio between time and space direction, is always set to 1
 %5th argument is a string used for data-saving
